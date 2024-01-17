@@ -689,14 +689,11 @@ img {
   margin-right: 8px;
 }
 
-:root {
-  --checked-icon-color: #F4F4FD; /* Змініть на власний колір за необхідності */
-}
 
 .privacy-checkbox .checked-input:checked + .privacy-label .privacy-mark {
   background-color: #404bbf;
   border: none;
-  fill: var(--checked-icon-color);
+  fill: #F4F4FD;
 }
 
 .privacy-checkbox .checked-input:focus + .privacy-label .privacy-mark {
