@@ -684,10 +684,11 @@ img {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 
 .checked-input:checked > .privacy-mark {
-    background-color: #404bbf;
+    background-color: #404bbf;;
     border: none;
     fill: #F4F4FD;
 }
