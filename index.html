@@ -536,6 +536,25 @@
             </li>
           </ul>
         </div>
+        <div>
+          <form class="subscribe-form">
+            <div class="subscribe-form-wrap">
+              <label for="email" class="subscribe-label">Subscribe</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="E-mail"
+                class="subscribe-input"
+              />
+            </div>
+            <button type="submit" class="subscribe-btn">
+              Subscribe<svg class="subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-telegram"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop">
@@ -561,8 +580,6 @@
               </svg>
             </div>
           </div>
-        </form>
-        <form class="modal-form">
           <div class="modal-field">
             <label for="user-phone" class="modal-label">Phone</label>
             <div class="modal-input-wrap">
@@ -577,8 +594,6 @@
               </svg>
             </div>
           </div>
-        </form>
-        <form class="modal-form">
           <div class="modal-field">
             <label for="user-email" class="modal-label">Email</label>
             <div class="modal-input-wrap">
@@ -593,8 +608,6 @@
               </svg>
             </div>
           </div>
-        </form>
-        <form class="modal-form">
           <div class="modal-field">
             <label for="user-comment" class="modal-label">Comment</label>
             <textarea
@@ -604,8 +617,6 @@
               placeholder="Text input"
             ></textarea>
           </div>
-        </form>
-        <form class="modal-form">
           <div class="privacy-checkbox">
             <label for="privacy" class="privacy-label"
               >I accept the terms and conditions of the
@@ -619,8 +630,8 @@
               class="privacy-input"
             />
           </div>
+          <button type="submit" class="submit-btn">Send</button>
         </form>
-        <button type="submit" class="submit-btn">Send</button>
       </div>
     </div>
   </body>
