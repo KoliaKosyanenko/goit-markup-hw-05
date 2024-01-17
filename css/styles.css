@@ -696,10 +696,6 @@ img {
   fill: #F4F4FD;
 }
 
-.privacy-checkbox .checked-input:focus + .privacy-label .privacy-mark {
-  fill: #4d5ae5;
-}
-
 .privacy-input {
 }
 
