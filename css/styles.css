@@ -623,7 +623,7 @@ img {
 
 .modal-input-wrap {
   position: relative;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-text {
@@ -737,8 +737,7 @@ img {
 }
 
 .subscribe-form {
-  display: flex;
-  gap: 24px;
+  display: flex; 
 }
 .subscribe-form-wrap {
   margin-left: 80px;
